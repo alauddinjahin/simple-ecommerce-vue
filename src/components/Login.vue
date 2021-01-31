@@ -76,7 +76,7 @@ export default {
           localStorage.setItem('access_token',response.data.token);
           localStorage.setItem('user_ref',this.email);
 
-          this.$router.push('/');
+          this.$router.push('/profile');
 
         }
 
